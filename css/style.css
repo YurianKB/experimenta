@@ -19,26 +19,37 @@ img.responsive-img {
 
 #usuario {
   margin-top: 5%; }
+  #usuario .user {
+    margin-top: 2%; }
   #usuario .perfil {
     box-shadow: 0px 0px  10px #FF6530;
-    text-align: center;
-    padding-bottom: 5%; }
+    text-align: center; }
     #usuario .perfil .img-perfil {
-      margin: 10%;
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       border-radius: 100%;
       border: 5px solid #FF6530; }
 
 #datos {
   margin: 4% 0; }
 
-.borde {
+.borde--azul {
   box-shadow: 0px 0px  10px  #25cad3; }
-  .borde .formulario-datos {
-    padding: 5%; }
-    .borde .formulario-datos .btn-save {
-      border-radius: 20px; }
+
+.borde--amarillo {
+  box-shadow: 0px 0px  10px  #ffb718; }
+
+.borde .formulario-datos {
+  padding: 2%; }
+  .borde .formulario-datos .btn-save {
+    border-radius: 20px; }
+
+.img-tarjetas {
+  width: 20%;
+  margin-bottom: 5%; }
+
+#info-tarjeta {
+  display: none; }
 
 #contact {
   background: #393737;
