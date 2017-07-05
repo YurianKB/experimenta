@@ -1,0 +1,33 @@
+
+.aside{
+	height:500px;
+}
+.jumbotron{
+	background-color: white;
+	border:2px solid #ff661b;
+	height:580px;
+	font-family:'Muli', sans-serif;
+	label{
+		margin-top:3.5%;
+	}
+	select{
+		margin-top:1%;
+	}
+}
+.btn.btn-color{
+	background-color:#7FC719;
+	color:white;
+	margin-top:2%;
+	margin-left:37%;
+}
+.carousel-caption{
+	background-color:rgba(246, 50, 60,.5);
+}
+.carousel-inner{
+	.item{
+		img{
+		width:100%;
+		height:280px;
+    }
+	}
+}
