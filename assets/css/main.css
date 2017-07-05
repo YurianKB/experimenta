@@ -1,10 +1,75 @@
+nav {
+  min-height: 100px;
+  line-height: 30px; }
+
+.foto-perfil {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%; }
+
+.brand-logo, .menu {
+  padding-right: 5%;
+  margin-left: 5%;
+  margin-top: 2%; }
+
+img.responsive-img {
+  width: 60px !important;
+  height: 60px !important;
+  border: 2px solid #FF6530; }
+
+#usuario {
+  margin-top: 5%; }
+  #usuario .perfil {
+    box-shadow: 0px 0px  10px #FF6530;
+    text-align: center;
+    padding-bottom: 5%; }
+    #usuario .perfil .img-perfil {
+      margin: 10%;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      border: 5px solid #FF6530; }
+
+#datos {
+  margin: 4% 0; }
+
+.borde {
+  box-shadow: 0px 0px  10px  #25cad3; }
+  .borde .formulario-datos {
+    padding: 5%; }
+    .borde .formulario-datos .btn-save {
+      border-radius: 20px; }
+
+#contact {
+  background: #393737;
+  box-shadow: 0px -5px 1px #FF6530;
+  padding-bottom: 3%; }
+  #contact .social {
+    margin: 10%; }
+    #contact .social .social__icon {
+      display: inline-flex;
+      margin-right: 6%; }
+      #contact .social .social__icon .social__icon--color {
+        background: linear-gradient(25deg, #e91e63, yellow); }
+      #contact .social .social__icon .social__icon--size {
+        font-size: 30px; }
+  #contact .newsletter {
+    margin-top: 3%; }
+
+footer {
+  background: #393737;
+  text-align: center;
+  margin-top: -1%;
+  padding-bottom: 1%; }
+
 .aside {
   height: 500px; }
 
 .jumbotron {
   background-color: white;
   border: 2px solid #ff661b;
-  height: 580px;
+  box-shadow: 0px 0px  10px #FF6530;
+  height: 618px;
   font-family: 'Muli', sans-serif; }
   .jumbotron label {
     margin-top: 3.5%; }
@@ -12,16 +77,23 @@
     margin-top: 1%; }
 
 .btn.btn-color {
+  display: inline-block;
   background-color: #7FC719;
   color: white;
-  margin-top: 2%;
-  margin-left: 37%; }
+  margin-top: 1%; }
+
+#dos {
+  margin-top: -2%;
+  margin-left: 8%; }
+
+div #carousel-example-generic.slide {
+  height: 300px; }
 
 .carousel-caption {
   background-color: rgba(246, 50, 60, 0.5); }
 
 .carousel-inner .item img {
   width: 100%;
-  height: 280px; }
+  height: 300px; }
 
 /*# sourceMappingURL=main.css.map */
