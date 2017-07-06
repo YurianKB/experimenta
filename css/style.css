@@ -73,4 +73,17 @@ footer {
   margin-top: -1%;
   padding-bottom: 1%; }
 
+#cuentas {
+  margin-top: 5%; }
+  #cuentas .cuentas-datos {
+    background-color: #FF6530; }
+  #cuentas .img-experiencia {
+    width: 100%; }
+
+.titulo-cuentas, .titulo-experiencia {
+  margin-left: 5%; }
+
+.linea-naranja {
+  border: 2px solid #FF6530; }
+
 /*# sourceMappingURL=style.css.map */
