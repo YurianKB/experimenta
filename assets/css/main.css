@@ -1,40 +1,6 @@
-#imagenInicio {
-  width: 100%; }
-
-#navegador {
-  box-shadow: 0px 5px 1px #F6323E; }
-
-.experimenta-logo {
-  width: 50%;
-  width: 50%;
-  margin-left: 10%; }
-
-#btn-iniciosesion {
-  background-color: #94D500;
-  /*width: 20%;*/ }
-
-.imagenfondo {
-  width: 100%;
-  height: 600px;
-  margin-top: 0%;
-  background-image: url("../assets/img/fotos-stock/Aventura/shutterstock_127957634.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
-.card-panel {
-  margin-top: 20%;
-  width: 200%;
-  height: 700%; }
-
-.formularioiniciosesion .card {
-  /*opacity: 0.5;*/
-  background: rgba(255, 255, 255, 0.5);
-  color: #606060;
-  margin-top: 5%;
-  margin-left: 5%; }
-
-.active, #first_name2 {
-  padding: 0%; }
+nav {
+  min-height: 100px;
+  line-height: 30px; }
 
 .foto-perfil {
   width: 20px;
@@ -45,7 +11,6 @@
   padding-right: 5%;
   margin-left: 5%;
   margin-top: 2%; }
-
 
 img.responsive-img {
   width: 60px !important;
@@ -108,4 +73,45 @@ footer {
   margin-top: -1%;
   padding-bottom: 1%; }
 
-/*# sourceMappingURL=style.css.map */
+.aside {
+  margin-top: 4%;
+  height: 500px; }
+
+.jumbotron {
+  margin-top: 8%;
+  background-color: white;
+  border: 2px solid #ff661b;
+  box-shadow: 0px 0px  10px #FF6530;
+  height: 618px;
+  font-family: "Muli", sans-serif; }
+  .jumbotron label {
+    margin-top: 2.5%; }
+  .jumbotron input {
+    margin-top: -2%; }
+  .jumbotron select {
+    margin-top: 1%; }
+
+.btn.btn-color {
+  display: inline-block;
+  background-color: #7fc719;
+  color: white;
+  margin-top: 1%; }
+
+#dos {
+  margin-top: -2%;
+  margin-left: 16%; }
+
+div #carousel-example-generic.slide {
+  height: 300px; }
+
+div #carousel.slide {
+  height: 300px; }
+
+.carousel-caption {
+  background-color: rgba(234, 29, 117, 0.5); }
+
+.carousel-inner .item img {
+  width: 100%;
+  height: 300px; }
+
+/*# sourceMappingURL=main.css.map */
