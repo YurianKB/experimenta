@@ -13,8 +13,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
 
   <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-
   <title>Experimenta</title>
 </head>
 
@@ -22,120 +20,122 @@
 
 
   <div class="navbar-fixed" id="navegador">
-    <nav>
-      <div class="nav-wrapper white">
-        <a href="#!" class="brand-logo"><img class="experimenta-logo" src="assets/img/logo-experimenta/logoNaranja-menu.png" alt=""></a>
-        <ul class="right hide-on-med-and-down menu">
-          <li>
-            <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s6">
-                    <input placeholder="" id="correo" type="text" class="validate">
-                    <label for="correo">Correo:</label>
-                  </div>
-                  <div class="input-field col s6">
-                    <input id="contraseña" type="text" class="validate">
-                    <label for="contraseña">Contraseña:</label>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </li>
+    <div class="row">
+      <div class="col s12"></div>
+      <div class="col s6">
+        <div class="input-field col s6">
 
-          <li><a href="perfilUsuario.html" class="black-text">
+
+          <a href="#!" class="brand-logo"><img class="experimenta-logo" src="assets/img/logo-experimenta/logoNaranja-menu.png" alt=""></a>
+          <ul class="right hide-on-med-and-down menu">
+        </div>
+
+        <div class="col s6">
+          <div class="input-field col s6">
+            <input value="" id="first_name2" type="text" class="validate">
+            <label class="active" for="first_name2">correo</label>
+          </div>
+
+
+            <input value="" id="first_name2" type="text" class="validate">
+            <label class="active" for="first_name2">contraseña</label>
+          </div>
+
+          <a href="perfilUsuario.html" class="black-text">
               <button class="btn waves-effect waves-light" id="btn-iniciosesion" type="submit" name="action">iniciar sesión
               <i class="material-icons right"></i>
               </button>
-              </a></li>
-        </ul>
+              </a></div>
       </div>
-    </nav>
-  </div>
 
-  <section class="imagenfondo">
+    </div>
 
 
 
 
-    <div class="row formularioiniciosesion">
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title"><h4>Regístrate.</h4></span><br>
 
-            <div class="row">
-              <div class="input-field col s12">
-                <input value="" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">NOMBRE(S)</label>
-              </div>
 
-              <div class="input-field col s12">
-                <input value="" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">CORREO ELECTÓNICO</label>
-              </div>
 
-              <div class="input-field col s12">
-                <input value="" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">CONTRASEÑA</label>
-              </div>
+    <section class="imagenfondo">
+      <div class="row formularioiniciosesion">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title"><h4>Regístrate.</h4></span><br>
 
-              <div class="input-field col s12">
-                <input value="" id="first_name2" type="text" class="validate">
-                <label class="active" for="first_name2">CONFIRMAR CONTRASEÑA</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input value="" id="first_name2" type="text" class="validate">
+                  <label class="active" for="first_name2">NOMBRE(S)</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input value="" id="first_name2" type="text" class="validate">
+                  <label class="active" for="first_name2">CORREO ELECTÓNICO</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input value="" id="first_name2" type="text" class="validate">
+                  <label class="active" for="first_name2">CONTRASEÑA</label>
+                </div>
+
+                <div class="input-field col s12">
+                  <input value="" id="first_name2" type="text" class="validate">
+                  <label class="active" for="first_name2">CONFIRMAR CONTRASEÑA</label>
+                </div>
+
               </div>
 
             </div>
-
-          </div>
-          <div class="card-action">
-            <a href="#">Registrarse</a>
-            <a href="#">Reestablecer Contraseña</a>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn" id="btn-registrarse">Registrarse</a>
+              <a class=" btn" id="btn-reestablecercontraseña">Reestablecer Contraseña</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-	<section id="contact">
-	    <div class="">
-	      <div class="row">
-	        <div class="col s7">
-	          <ul class="social">
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue darken-4"> <i class="social__icon--size fa fa-facebook white-text"></i></a>
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating blue lighten-1"> <i class="social__icon--size fa fa-twitter white-text"></i></a>
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue accent-3"> <i class="social__icon--size fa fa-linkedin white-text"></i></a>
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating social__icon--color"> <i class="social__icon--size fa fa-instagram white-text"></i></a>
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating red"> <i class="social__icon--size fa fa-youtube white-text"></i></a>
-	            <li class="social__icon"><a href="#" class="btn-large btn-floating  orange lighten-1"> <i class="social__icon--size fa fa-rss white-text"></i></a>
-	          </ul>
-	        </div>
-	        <div class="col s5 white-text newsletter">
-	          <p>Inscribete a nuestro Newsletter</p>
-	          <div class="row">
-	            <div class="col s7">
-	              <input type="text" placeholder="email">
-	            </div>
-	            <div class="col s3">
-	              <a class="btn btn-save  light-green accent-4">Suscribir</a>
-	            </div>
-	          </div>
-	          <p> 5292 5707 / 01 55 5292-5707 - atencion@experimenta.com.mx</p>
-	        </div>
-	      </div>
-	    </div>
-	  </section>
-	  <footer>
-	    <small class="white-text">Copyright © 2004-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.</small>
-	  </footer>
+    <section id="contact">
+      <div class="">
+        <div class="row">
+          <div class="col s7">
+            <ul class="social">
+              <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue darken-4"> <i class="social__icon--size fa fa-facebook white-text"></i></a>
+                <li class="social__icon"><a href="#" class="btn-large btn-floating blue lighten-1"> <i class="social__icon--size fa fa-twitter white-text"></i></a>
+                  <li class="social__icon"><a href="#" class="btn-large btn-floating light-blue accent-3"> <i class="social__icon--size fa fa-linkedin white-text"></i></a>
+                    <li class="social__icon"><a href="#" class="btn-large btn-floating social__icon--color"> <i class="social__icon--size fa fa-instagram white-text"></i></a>
+                      <li class="social__icon"><a href="#" class="btn-large btn-floating red"> <i class="social__icon--size fa fa-youtube white-text"></i></a>
+                        <li class="social__icon"><a href="#" class="btn-large btn-floating  orange lighten-1"> <i class="social__icon--size fa fa-rss white-text"></i></a>
+            </ul>
+          </div>
+          <div class="col s5 white-text newsletter">
+            <p>Inscribete a nuestro Newsletter</p>
+            <div class="row">
+              <div class="col s7">
+                <input type="text" placeholder="email">
+              </div>
+              <div class="col s3">
+                <a class="btn btn-save  light-green accent-4">Suscribir</a>
+              </div>
+            </div>
+            <p> 5292 5707 / 01 55 5292-5707 - atencion@experimenta.com.mx</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <small class="white-text">Copyright © 2004-, Experimenta de México, S.A. de C.V. Todos los derechos reservados.</small>
+    </footer>
 
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <scrip src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scrip>
-  <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+      <scrip src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scrip>
+      <script type="text/javascript" src="js/app.js"></script>
 </body>
 
 </html>

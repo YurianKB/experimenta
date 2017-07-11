@@ -1,17 +1,19 @@
+@charset "UTF-8";
 #imagenInicio {
   width: 100%; }
 
 #navegador {
   box-shadow: 0px 5px 1px #F6323E; }
 
-.experimenta-logo {
-  width: 50%;
-  width: 50%;
-  margin-left: 10%; }
-
-#btn-iniciosesion {
+#btn-iniciosesion, #btn-registrarse {
   background-color: #94D500;
   /*width: 20%;*/ }
+
+#btn-reestablecercontrase├▒a {
+  background-color: #F6323E; }
+
+#input-correoycontrase├▒a {
+  color: black; }
 
 .imagenfondo {
   width: 100%;
@@ -27,7 +29,7 @@
   -ms-filter: "FlipH";*/ }
 
 .card-panel {
-  margin-top: 20%;
+  margin-top: 30%;
   width: 200%;
   height: 700%; }
 
@@ -62,6 +64,20 @@ footer {
   text-align: center;
   margin-top: -1%;
   padding-bottom: 1%; }
+
+.formulario-aclaraciones .card {
+  background: rgba(255, 255, 255, 0.5);
+  color: #606060;
+  margin-top: 8%;
+  margin-left: 0%;
+  width: 85%;
+  border: 2px solid #ff661b;
+  box-shadow: 0px 0px  10px #FF6530;
+  margin-left: 60%; }
+
+#boton-aclaraciones {
+  background-color: #94D500;
+  margin-left: 1%; }
 
 nav {
   min-height: 100px;
